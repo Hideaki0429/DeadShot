@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4126226371902725496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293095974715231480}
+  - component: {fileID: 4245726420727669783}
+  m_Layer: 0
+  m_Name: GameInputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293095974715231480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4126226371902725496}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4245726420727669783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4126226371902725496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4761025402fc340f79af7f4865abab14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forward: 119
+  back: 115
+  left: 97
+  right: 100
+  run: 304
+  aim: 324
+  attack: 323
+  reload: 114
+  changeView: 99
+  changeZoom: 118
+  map: 109
+  items: 9
+  pause: 112
+  heal: 113
+  weaponUp: 119
+  weaponDown: 115
+  weaponLeft: 97
+  weaponRight: 100
+  weaponQuickLeft: 102
+  weaponQuickUp: 116
+  weaponQuickDown: 103
+  weaponQuickRight: 104
+  weaponMenu: 101
+  wheelAxis: Mouse ScrollWheel
+  confirm: 13
+  alternateConfirm: 271
+  mouseConfirm: 323
+  selectUp: 273
+  selectDown: 274
+  selectLeft: 276
+  selectRight: 275
+  lookX: Mouse X
+  lookY: Mouse Y
+  controllerBaseSceneName: Stage_City
+  stageControllerLookSensitivity: 0.8
+  baseControllerLookSensitivity: 2
+  controllerStickDeadZone: 0.18
+  invertControllerLookY: 0
+  controllerGrenadeDistanceSensitivity: 0.12
+  jump: 32
+  releaseCursor: 27

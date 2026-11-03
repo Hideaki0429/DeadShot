@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46279f5e195f4ffba09bca4a1f46f8a, type: 3}
+  m_Name: DeadShotSoundBank
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 21e6c21b133434bbaa48892c839894e7, type: 2}
+  effectsGroup: {fileID: 8065768238712606702, guid: 21e6c21b133434bbaa48892c839894e7, type: 2}
+  uiGroup: {fileID: -2159284037028186476, guid: 21e6c21b133434bbaa48892c839894e7, type: 2}
+  voiceGroup: {fileID: 2752305901065774259, guid: 21e6c21b133434bbaa48892c839894e7, type: 2}
+  ambienceGroup: {fileID: -6250564728422482916, guid: 21e6c21b133434bbaa48892c839894e7, type: 2}
+  menuBgm: {fileID: 8300000, guid: 6e7b3953cc94b4cd8906fe3d45f428b2, type: 3}
+  menuBgmVolume: 1
+  menuBgmFadeSeconds: 0.5
+  sounds:
+  - sound: 1
+    clips:
+    - {fileID: 8300000, guid: 64cdc193cf1644fada5ebdba5f6e7847, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 1
+    maxDistance: 25
+  - sound: 4
+    clips:
+    - {fileID: 8300000, guid: d0cd1fed6091042d893e3d41ae5a4b93, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 0
+    maxDistance: 25
+  - sound: 2
+    clips:
+    - {fileID: 8300000, guid: 1b2fa5932477345fd82693a4e61e7603, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 0
+    maxDistance: 25
+  - sound: 3
+    clips:
+    - {fileID: 8300000, guid: b615091a7c28142b78076b68ec917f61, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 0
+    maxDistance: 25
+  - sound: 5
+    clips:
+    - {fileID: 8300000, guid: 0a77ade74b6344239af9b34654cba4ff, type: 3}
+    - {fileID: 8300000, guid: 3cb10bf7ef0694ecdb8f08ea2be3247f, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 1
+    maxDistance: 25
+  - sound: 6
+    clips:
+    - {fileID: 8300000, guid: 4145910dc57424e7c80794bb7fcc69a1, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 1
+    maxDistance: 25
+  - sound: 0
+    clips:
+    - {fileID: 0}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 0
+    maxDistance: 25
+  - sound: 7
+    clips:
+    - {fileID: 8300000, guid: 410344d4e58684e499e4126916b0931f, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 0
+    maxDistance: 25
+  - sound: 8
+    clips:
+    - {fileID: 8300000, guid: 5db42135093364f2b91359511f900919, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 0
+    maxDistance: 25
+  - sound: 9
+    clips:
+    - {fileID: 8300000, guid: be5bb241107374736b6676e638f41574, type: 3}
+    volume: 0.506
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 0
+    maxDistance: 25
+  - sound: 10
+    clips:
+    - {fileID: 8300000, guid: 9a16f7bd0440f4095af98773a205afdd, type: 3}
+    volume: 0.614
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 1
+    maxDistance: 25
+  - sound: 11
+    clips:
+    - {fileID: 8300000, guid: 16c197451971942f591b4019caf83104, type: 3}
+    volume: 0.6
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 1
+    maxDistance: 60
+  - sound: 12
+    clips:
+    - {fileID: 8300000, guid: 26ef80d3958364178a12e9756aa3a5d7, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 1
+    maxDistance: 250
+  - sound: 13
+    clips:
+    - {fileID: 8300000, guid: fb1fc1b4fd1bb4733b62caf03ef00a80, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.05}
+    spatial: 0
+    maxDistance: 25
+  voiceInterval: {x: 6, y: 12}
+  maxSimultaneousVoices: 3
+  bloodDripDelay: 0.15
