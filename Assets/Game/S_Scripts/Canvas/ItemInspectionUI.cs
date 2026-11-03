@@ -318,8 +318,22 @@ public sealed class ItemInspectionUI : MonoBehaviour
         openedFrame = Time.frameCount;
         waitForLeftRelease = Input.GetMouseButton(0);
         panel.SetActive(true);
+        // シーン保存時に無効になっていても、アイテム表示時は専用ライトを有効にする。
+        EnablePreviewLight(keyLight);
+        EnablePreviewLight(fillLight);
         previewCamera.enabled = true;
         IsOpen = true;
+    }
+
+    static void EnablePreviewLight(Light light)
+    {
+        if (light == null)
+        {
+            return;
+        }
+
+        light.gameObject.SetActive(true);
+        light.enabled = true;
     }
 
     // 毎フレーム呼ばれます。以下の条件を確認し、入力や現在の状態に応じた処理を進めます。
